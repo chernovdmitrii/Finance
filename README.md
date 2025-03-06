@@ -1,70 +1,113 @@
-# Finance
-This repository is about financial theory applied to real-world data
-Here’s a cool README.md file for your GitHub repository, incorporating your Coursera course and Python applications:
+Financial Markets Global – Python Applications
 
-📈 Financial Markets with Python 🐍
+Welcome to Financial Markets Global – Python Applications! This repository contains Python notebooks applying concepts learned from the Financial Markets Global course on Coursera. Whether you’re exploring concepts for the first time or looking to deepen your understanding of financial markets, these notebooks will help you practice and visualize key ideas in a hands-on manner.
 
-🚀 This repository contains my hands-on applications of financial market theories in Python. Inspired by the “Financial Markets” course on Coursera, I have implemented key financial models, including:
-	•	📊 Modern Portfolio Theory (MPT)
-	•	📈 Capital Asset Pricing Model (CAPM)
-	•	📉 Gordon Growth Model (GGM)
-	•	📌 Post-Modern Portfolio Theory (PMPT)
+Table of Contents
+	•	Overview
+	•	Project Structure
+	•	1. CAPM.ipynb
+	•	2. GGM.ipynb
+	•	3. MPT.ipynb
+	•	4. PMPT.ipynb
+	•	Installation
+	•	Usage
+	•	Contributing
+	•	License
+	•	Acknowledgments
 
-🏦 About This Project
+Overview
 
-This project is designed to bridge the gap between financial theory and practical implementation. Each notebook contains well-documented code, real-world financial datasets, and visualization techniques to help analyze and optimize investment strategies.
+This repository demonstrates how to apply some of the most fundamental concepts from modern finance using Python. Each Jupyter Notebook explores a different area, showcasing:
+	•	Mathematical derivations
+	•	Implementation in Python
+	•	Visualization and interpretation of results
 
-📂 Project Structure
+By walking through these notebooks, you can gain a solid understanding of how theoretical models translate into actionable insights.
 
-📂 financial-markets-python
-│── 📄 README.md              # This file  
-│── 📜 LICENSE                # License file  
-│── 📂 notebooks              # Jupyter Notebooks  
-│   ├── CAMP.ipynb            # Capital Asset Pricing Model  
-│   ├── GGM.ipynb             # Gordon Growth Model  
-│   ├── MPT.ipynb             # Modern Portfolio Theory  
-│   ├── PMPT.ipynb            # Post-Modern Portfolio Theory  
-│── 📂 data                   # Sample datasets  
-│── 📂 scripts                # Python scripts (optional)  
+Project Structure
 
-🔧 Installation & Setup
+1. CAPM.ipynb
+
+Focus: The Capital Asset Pricing Model (CAPM)
+Key Topics:
+	•	Understanding systematic vs. unsystematic risk
+	•	Deriving the Security Market Line (SML)
+	•	Estimating beta and interpreting alpha in real-world data
+
+2. GGM.ipynb
+
+Focus: Gordon Growth Model (GGM)
+Key Topics:
+	•	Valuation of stocks using dividend growth assumptions
+	•	Sensitivity analysis with changing growth rates
+	•	Practical examples of applying GGM to real stocks
+
+3. MPT.ipynb
+
+Focus: Modern Portfolio Theory (MPT)
+Key Topics:
+	•	Constructing the efficient frontier
+	•	Diversification benefits and correlation analysis
+	•	Risk-return optimization with Python’s data libraries
+
+4. PMPT.ipynb
+
+Focus: Post-Modern Portfolio Theory (PMPT)
+Key Topics:
+	•	Introducing downside risk measures (e.g., semi-deviation, Value at Risk)
+	•	Comparing PMPT vs. MPT in terms of real-world applicability
+	•	Portfolio optimization with advanced risk metrics
+
+Installation
 	1.	Clone the repository:
 
-git clone https://github.com/yourusername/financial-markets-python.git
+git clone https://github.com/your-username/financial-markets-python.git
 cd financial-markets-python
 
 
-	2.	Install dependencies:
+	2.	Create a virtual environment (optional but recommended):
+
+python -m venv env
+source env/bin/activate  # On Windows: env\Scripts\activate
+
+
+	3.	Install the required packages:
 
 pip install -r requirements.txt
 
+	If requirements.txt is not included, simply install the libraries used in the notebooks (e.g., pandas, numpy, matplotlib, scipy, etc.).
 
-	3.	Run Jupyter Notebooks:
+Usage
+	1.	Launch Jupyter Notebook:
 
 jupyter notebook
 
 
+	2.	Open any of the notebooks:
+	•	CAPM.ipynb
+	•	GGM.ipynb
+	•	MPT.ipynb
+	•	PMPT.ipynb
+	3.	Run the cells in sequence to reproduce the results and experiment with different inputs.
 
-📚 Key Concepts Implemented
-	•	MPT (Modern Portfolio Theory) → Portfolio diversification & efficient frontier
-	•	CAPM (Capital Asset Pricing Model) → Expected return & risk
-	•	GGM (Gordon Growth Model) → Stock valuation using dividends
-	•	PMPT (Post-Modern Portfolio Theory) → Risk measures & downside risk
+Contributing
 
-🖥️ Technologies Used
-	•	Python 🐍
-	•	Jupyter Notebook 📒
-	•	Pandas, NumPy, Matplotlib, Seaborn 📊
-	•	Finance libraries like yfinance & scipy 💹
+Contributions are welcome! If you have:
+	•	Corrections to the analysis
+	•	Suggestions for improvements
+	•	Additional notebooks or references
 
-🤝 Contributions
+Feel free to open an issue or submit a pull request.
 
-Feel free to fork the repository, open issues, and submit pull requests. Let’s collaborate and improve financial modeling in Python!
+License
 
-📝 License
+This project is licensed under the MIT License. Feel free to use, modify, and distribute this project as you wish. If you find it helpful, a star on the repository is always appreciated!
 
-This project is licensed under the MIT License.
+Acknowledgments
+	•	Coursera Financial Markets Global – for the foundational concepts and coursework that inspired these notebooks.
+	•	Open-Source Community – for the powerful ecosystem of Python tools like pandas, NumPy, and matplotlib used here.
 
-📢 Follow my journey in financial markets & Python! 🚀
+	Disclaimer: The content in this repository is provided for educational purposes. It is not financial advice. Always conduct your own due diligence before making any investment decisions.
 
-Would you like to add anything specific, such as your GitHub username or dataset details? 🚀
+Happy Learning and Coding!
+Feel free to get in touch if you have any questions, suggestions, or insights to share.
